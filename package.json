@@ -1,0 +1,25 @@
+{
+  "name": "React-Backbone-Sample",
+  "version": "1.0.0",
+  "description": "An attempt to intgrate React with Backbone",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MuhammadMuneer/React-Backbone-Sample.git"
+  },
+  "author": "Muhammad Muneer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadMuneer/React-Backbone-Sample/issues"
+  },
+  "homepage": "https://github.com/MuhammadMuneer/React-Backbone-Sample",
+  "devDependencies": {
+    "backbone": "^1.1.2",
+    "react": "^0.12.2",
+    "react-router": "^0.12.4",
+    "webpack": "^1.7.2"
+  }
+}
