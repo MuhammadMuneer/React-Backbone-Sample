@@ -2,8 +2,10 @@ var React = require('react');
 var Router = require('react-router');
 var Link = Router.Link;
 var RouteHandler = Router.RouteHandler;
+var BackboneReactMixin = require('backbone-react-component');
 
 var App = React.createClass({
+  mixins: [BackboneReactMixin],
   render: function () {
     return (
       <div>
